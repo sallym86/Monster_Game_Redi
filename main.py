@@ -26,7 +26,7 @@ while monster_health > 0  and player_health > 0  :
     print('monster has attack:', monster_attack)
 
     player_action = input('1 or 2 ')
-    Attack=11
+    Attack=1
     Heal=2
     if player_action.lower() == '1':
         monster_health = monster_health - player_attack
